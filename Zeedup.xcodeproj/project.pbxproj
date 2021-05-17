@@ -3,27 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5084069C2A1E2DF018C4BE4D /* Pods_Zeedup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19C3AAA80C58B0FF4BE7E9D /* Pods_Zeedup.framework */; };
+		BB3567B92651E4DB002BA448 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3567B82651E4DB002BA448 /* AnimationViewController.swift */; };
 		BB6427A5265113930020B9F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6427A4265113930020B9F3 /* AppDelegate.swift */; };
 		BB6427A7265113930020B9F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6427A6265113930020B9F3 /* SceneDelegate.swift */; };
-		BB6427A9265113930020B9F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6427A8265113930020B9F3 /* ViewController.swift */; };
+		BB6427A9265113930020B9F3 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6427A8265113930020B9F3 /* LoginVC.swift */; };
 		BB6427AC265113930020B9F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6427AA265113930020B9F3 /* Main.storyboard */; };
 		BB6427AE265113940020B9F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB6427AD265113940020B9F3 /* Assets.xcassets */; };
 		BB6427B1265113940020B9F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6427AF265113940020B9F3 /* LaunchScreen.storyboard */; };
+		BB6427BB265122BF0020B9F3 /* Screenshot 2021-05-16 at 3.21.36 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BB6427BA265122BF0020B9F3 /* Screenshot 2021-05-16 at 3.21.36 PM.png */; };
+		BB7A36712651CAAE006B0C2F /* UserDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7A36702651CAAE006B0C2F /* UserDataVC.swift */; };
+		BB84D1F726525FF20060534A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB84D1F626525FF20060534A /* GoogleService-Info.plist */; };
+		BB873AE82651E1270063A518 /* welcome.json in Resources */ = {isa = PBXBuildFile; fileRef = BB873AE72651E1270063A518 /* welcome.json */; };
+		BB88E2A226515AA9009FACB0 /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB88E2A126515AA9009FACB0 /* Custom.swift */; };
+		BB88E2A626515EF7009FACB0 /* SignUPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB88E2A526515EF7009FACB0 /* SignUPVC.swift */; };
+		BB98645826512A30002CC183 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98645626512A30002CC183 /* CustomView.swift */; };
+		BB98645926512A30002CC183 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98645726512A30002CC183 /* CustomButton.swift */; };
+		BBB1ED7C2651CB420038F36F /* CustomTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB1ED7B2651CB420038F36F /* CustomTVC.swift */; };
+		BBFF810C265266FF0035B0E8 /* userValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF810B265266FF0035B0E8 /* userValue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D5539BE88CE13051EBECD59 /* Pods-Zeedup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeedup.debug.xcconfig"; path = "Target Support Files/Pods-Zeedup/Pods-Zeedup.debug.xcconfig"; sourceTree = "<group>"; };
+		572A1AB9259ED39FDAF1AC3A /* Pods-Zeedup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeedup.release.xcconfig"; path = "Target Support Files/Pods-Zeedup/Pods-Zeedup.release.xcconfig"; sourceTree = "<group>"; };
+		BB3567B82651E4DB002BA448 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		BB6427A1265113930020B9F3 /* Zeedup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zeedup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB6427A4265113930020B9F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB6427A6265113930020B9F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BB6427A8265113930020B9F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB6427A8265113930020B9F3 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		BB6427AB265113930020B9F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB6427AD265113940020B9F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB6427B0265113940020B9F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB6427B2265113940020B9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB6427BA265122BF0020B9F3 /* Screenshot 2021-05-16 at 3.21.36 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2021-05-16 at 3.21.36 PM.png"; sourceTree = "<group>"; };
+		BB7A36702651CAAE006B0C2F /* UserDataVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataVC.swift; sourceTree = "<group>"; };
+		BB84D1F626525FF20060534A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BB873AE72651E1270063A518 /* welcome.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = welcome.json; sourceTree = "<group>"; };
+		BB88E2A126515AA9009FACB0 /* Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom.swift; sourceTree = "<group>"; };
+		BB88E2A526515EF7009FACB0 /* SignUPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPVC.swift; sourceTree = "<group>"; };
+		BB98645626512A30002CC183 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		BB98645726512A30002CC183 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		BBB1ED7B2651CB420038F36F /* CustomTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTVC.swift; sourceTree = "<group>"; };
+		BBFF810B265266FF0035B0E8 /* userValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userValue.swift; sourceTree = "<group>"; };
+		C19C3AAA80C58B0FF4BE7E9D /* Pods_Zeedup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zeedup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5084069C2A1E2DF018C4BE4D /* Pods_Zeedup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92BB4DA5567A35D48DDA3C61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D5539BE88CE13051EBECD59 /* Pods-Zeedup.debug.xcconfig */,
+				572A1AB9259ED39FDAF1AC3A /* Pods-Zeedup.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BB642798265113930020B9F3 = {
 			isa = PBXGroup;
 			children = (
+				BBB1ED7F2651DECE0038F36F /* Views */,
+				BBB1ED7E2651DEB40038F36F /* Model */,
+				BBB1ED7D2651DE960038F36F /* ViewController */,
 				BB6427A3265113930020B9F3 /* Zeedup */,
 				BB6427A2265113930020B9F3 /* Products */,
+				92BB4DA5567A35D48DDA3C61 /* Pods */,
+				C16D4BEED8F5235EB6492A41 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +97,55 @@
 		BB6427A3265113930020B9F3 /* Zeedup */ = {
 			isa = PBXGroup;
 			children = (
+				BB873AE72651E1270063A518 /* welcome.json */,
+				BB84D1F626525FF20060534A /* GoogleService-Info.plist */,
 				BB6427A4265113930020B9F3 /* AppDelegate.swift */,
 				BB6427A6265113930020B9F3 /* SceneDelegate.swift */,
-				BB6427A8265113930020B9F3 /* ViewController.swift */,
 				BB6427AA265113930020B9F3 /* Main.storyboard */,
 				BB6427AD265113940020B9F3 /* Assets.xcassets */,
 				BB6427AF265113940020B9F3 /* LaunchScreen.storyboard */,
 				BB6427B2265113940020B9F3 /* Info.plist */,
+				BB6427BA265122BF0020B9F3 /* Screenshot 2021-05-16 at 3.21.36 PM.png */,
 			);
 			path = Zeedup;
+			sourceTree = "<group>";
+		};
+		BBB1ED7D2651DE960038F36F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB6427A8265113930020B9F3 /* LoginVC.swift */,
+				BB3567B82651E4DB002BA448 /* AnimationViewController.swift */,
+				BB7A36702651CAAE006B0C2F /* UserDataVC.swift */,
+				BB88E2A526515EF7009FACB0 /* SignUPVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BBB1ED7E2651DEB40038F36F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB98645626512A30002CC183 /* CustomView.swift */,
+				BB98645726512A30002CC183 /* CustomButton.swift */,
+				BB88E2A126515AA9009FACB0 /* Custom.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BBB1ED7F2651DECE0038F36F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BBFF810B265266FF0035B0E8 /* userValue.swift */,
+				BBB1ED7B2651CB420038F36F /* CustomTVC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C16D4BEED8F5235EB6492A41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C19C3AAA80C58B0FF4BE7E9D /* Pods_Zeedup.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB6427B5265113940020B9F3 /* Build configuration list for PBXNativeTarget "Zeedup" */;
 			buildPhases = (
+				EFA8FA664157B7023692BA50 /* [CP] Check Pods Manifest.lock */,
 				BB64279D265113930020B9F3 /* Sources */,
 				BB64279E265113930020B9F3 /* Frameworks */,
 				BB64279F265113930020B9F3 /* Resources */,
+				B103929AFE076EDBC9EC16C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,22 +207,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB873AE82651E1270063A518 /* welcome.json in Resources */,
+				BB6427BB265122BF0020B9F3 /* Screenshot 2021-05-16 at 3.21.36 PM.png in Resources */,
 				BB6427B1265113940020B9F3 /* LaunchScreen.storyboard in Resources */,
 				BB6427AE265113940020B9F3 /* Assets.xcassets in Resources */,
 				BB6427AC265113930020B9F3 /* Main.storyboard in Resources */,
+				BB84D1F726525FF20060534A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B103929AFE076EDBC9EC16C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zeedup/Pods-Zeedup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zeedup/Pods-Zeedup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zeedup/Pods-Zeedup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFA8FA664157B7023692BA50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zeedup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BB64279D265113930020B9F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB6427A9265113930020B9F3 /* ViewController.swift in Sources */,
+				BB6427A9265113930020B9F3 /* LoginVC.swift in Sources */,
+				BB98645826512A30002CC183 /* CustomView.swift in Sources */,
+				BB88E2A226515AA9009FACB0 /* Custom.swift in Sources */,
+				BBB1ED7C2651CB420038F36F /* CustomTVC.swift in Sources */,
 				BB6427A5265113930020B9F3 /* AppDelegate.swift in Sources */,
 				BB6427A7265113930020B9F3 /* SceneDelegate.swift in Sources */,
+				BB3567B92651E4DB002BA448 /* AnimationViewController.swift in Sources */,
+				BB98645926512A30002CC183 /* CustomButton.swift in Sources */,
+				BBFF810C265266FF0035B0E8 /* userValue.swift in Sources */,
+				BB88E2A626515EF7009FACB0 /* SignUPVC.swift in Sources */,
+				BB7A36712651CAAE006B0C2F /* UserDataVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +419,7 @@
 		};
 		BB6427B6265113940020B9F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D5539BE88CE13051EBECD59 /* Pods-Zeedup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +439,7 @@
 		};
 		BB6427B7265113940020B9F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 572A1AB9259ED39FDAF1AC3A /* Pods-Zeedup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
