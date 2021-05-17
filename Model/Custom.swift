@@ -8,7 +8,7 @@ import Foundation
 import UIKit
 
 @IBDesignable class Custom: UITextField {
-
+    
     @IBInspectable var borderColor : UIColor = UIColor.red{
         didSet{
             self.layer.borderColor = self.borderColor.cgColor
@@ -26,5 +26,5 @@ import UIKit
             self.layer.cornerRadius = self.radius
         }
     }
-
+    
 }

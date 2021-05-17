@@ -66,14 +66,14 @@ class UserDataVC: UIViewController {
             print(err)
         }
     }
-
+    
 }
 
 
 extension UserDataVC:UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         print(userData.count)
-
+        
         return userData.count
     }
     

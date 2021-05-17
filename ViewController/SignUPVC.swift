@@ -21,9 +21,7 @@ class SignUPVC: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.navigationBar.isHidden = false
     }
-//    override func viewWillAppear(_ animated: Bool) {
-//        self.navigationController?.isToolbarHidden = true
-//    }
+    
     func HomeScreen()  {
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "LoginVC") as! LoginVC
         self.navigationController?.pushViewController(vc, animated: true)
@@ -124,23 +122,23 @@ class SignUPVC: UIViewController {
                 }
                 else {
                     
-                let ref = Database.database().reference(fromURL: "https://zeedup-58e0a-default-rtdb.asia-southeast1.firebasedatabase.app/") //Enter your firebase url here also in GoogleService.plist
-                                let usersReference = ref.child("users").child(result!.user.uid)
+                    let ref = Database.database().reference(fromURL: "https://zeedup-58e0a-default-rtdb.asia-southeast1.firebasedatabase.app/") //Enter your firebase url here also in GoogleService.plist
+                    let usersReference = ref.child("users").child(result!.user.uid)
                     let values = ["firstName":firstName, "lastName": lastName,"email":email,"password":password,"number":number]
-                                usersReference.updateChildValues(values, withCompletionBlock: { (err,ref) in
-                                    if  err != nil {
-                                        print(err!)
-                                        self.showErr(msg: "Error saving user data")
-                                    }
-                                })
-                            }
-                            
-                            return
-                    }
+                    usersReference.updateChildValues(values, withCompletionBlock: { (err,ref) in
+                        if  err != nil {
+                            print(err!)
+                            self.showErr(msg: "Error saving user data")
+                        }
+                    })
+                }
+                
+                return
+            }
         }
-                            self.HomeScreen()
+        self.HomeScreen()
     }
-    }
+}
 func isPasswordValid(_ password : String) -> Bool{
     let passwordTest = NSPredicate(format: "SELF MATCHES %@", "^(?=.*[a-z])(?=.*[$@$#!%*?&])[A-Za-z\\d$@$#!%*?&]{8,}")
     return passwordTest.evaluate(with: password)

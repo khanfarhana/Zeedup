@@ -14,7 +14,7 @@ class userValue: NSObject{
     var lastName: String
     var password: String
     var email: String
-
+    
     init(id: String,firstName: String, lastName: String,password: String,email: String,number: String){
         self.id = id
         self.firstName = firstName

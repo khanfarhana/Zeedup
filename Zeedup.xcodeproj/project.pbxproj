@@ -15,7 +15,6 @@
 		BB6427AC265113930020B9F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6427AA265113930020B9F3 /* Main.storyboard */; };
 		BB6427AE265113940020B9F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB6427AD265113940020B9F3 /* Assets.xcassets */; };
 		BB6427B1265113940020B9F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6427AF265113940020B9F3 /* LaunchScreen.storyboard */; };
-		BB6427BB265122BF0020B9F3 /* Screenshot 2021-05-16 at 3.21.36 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BB6427BA265122BF0020B9F3 /* Screenshot 2021-05-16 at 3.21.36 PM.png */; };
 		BB7A36712651CAAE006B0C2F /* UserDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7A36702651CAAE006B0C2F /* UserDataVC.swift */; };
 		BB84D1F726525FF20060534A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB84D1F626525FF20060534A /* GoogleService-Info.plist */; };
 		BB873AE82651E1270063A518 /* welcome.json in Resources */ = {isa = PBXBuildFile; fileRef = BB873AE72651E1270063A518 /* welcome.json */; };
@@ -39,7 +38,6 @@
 		BB6427AD265113940020B9F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB6427B0265113940020B9F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB6427B2265113940020B9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB6427BA265122BF0020B9F3 /* Screenshot 2021-05-16 at 3.21.36 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2021-05-16 at 3.21.36 PM.png"; sourceTree = "<group>"; };
 		BB7A36702651CAAE006B0C2F /* UserDataVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataVC.swift; sourceTree = "<group>"; };
 		BB84D1F626525FF20060534A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BB873AE72651E1270063A518 /* welcome.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = welcome.json; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 				BB6427AD265113940020B9F3 /* Assets.xcassets */,
 				BB6427AF265113940020B9F3 /* LaunchScreen.storyboard */,
 				BB6427B2265113940020B9F3 /* Info.plist */,
-				BB6427BA265122BF0020B9F3 /* Screenshot 2021-05-16 at 3.21.36 PM.png */,
 			);
 			path = Zeedup;
 			sourceTree = "<group>";
@@ -208,7 +205,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB873AE82651E1270063A518 /* welcome.json in Resources */,
-				BB6427BB265122BF0020B9F3 /* Screenshot 2021-05-16 at 3.21.36 PM.png in Resources */,
 				BB6427B1265113940020B9F3 /* LaunchScreen.storyboard in Resources */,
 				BB6427AE265113940020B9F3 /* Assets.xcassets in Resources */,
 				BB6427AC265113930020B9F3 /* Main.storyboard in Resources */,
